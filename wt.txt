@@ -1,0 +1,6 @@
+1.我看interview.module.ts里不是import了AIModule吗，那这里还需要import { AIModelFactory } from '../../ai/services/ai-model.factory';以这种方式来导入吗？那nterview.module.ts里不是import了AIModule的意义是什么​
+2.interview.module.ts里不是import了AIModule么，我该如何使用AiModule里导出的AIModelFactory，在interview模块里该如何使用​?
+3.直接
+ private aiModelFactory: AIModelFactory // 注入服务
+
+这样就可以了吗，系统就会识别到吗​?
